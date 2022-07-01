@@ -1,0 +1,57 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+
+
+html,body{
+	height: 100%;
+}
+
+header{
+	max-width: 500px;
+	text-align: center;
+	font-size: 50px;
+	margin-top: 100px;
+	margin-left: 400px;
+	background: blue;
+	color: white;
+	border: 1px solid black;
+
+}
+
+.lista{
+	max-width: 500px ;
+	margin-top: 100px;
+	margin-left: 400px;
+	text-align: center;
+	margin-top: 1px;
+}
+
+.lista ul{
+	border: 1px solid black;
+	padding: 20px 10px;
+	list-style: none;
+}
+
+.lista li{
+	font-size: 25px;
+}
+
+input{
+	width: 500px;
+	height: 30px;
+	border: 1px solid #ccc;
+}
+button{
+	margin-top: 10px;
+	padding: 10px 10px;
+	cursor: pointer;
+	border-radius: 20px;
+	background-color: blue;
+	color: white;
+}
+

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lista de compras</title>
+
+</head>
+
+<header>Lista de Compras</header>
+
+<body>
+	<div class="lista" ng-app="minhaLista" ng-controller="myCtrl">
+	  <ul>
+	    <li ng-repeat="x in produtos">{{x}}<span ng-click="removeItem($index)">&times;</span>
+	    </li>
+	  </ul>
+	  <input placeholder="Adicione aqui o nome do iten*" ng-model="addMe">
+  		<button ng-click="addItem()">Adicionar itens na lista!</button>
+  		<p>{{errortext}}</p>
+	</div>
+
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js">
+</script>
+<script src="js/angula.js"></script>
+</html>
